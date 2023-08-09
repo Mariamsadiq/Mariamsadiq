@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .square {
+        height: 100px;
+        width: 100px;
+        background-color: yellow;
+        margin: 30px;
+        animation-name: square;
+        animation-duration: 20s;
+      }
+      .circle {
+        height: 100px;
+        width: 100px;
+        background-color: #555;
+        border-radius: 100%;
+        animation-name: circle;
+        animation-duration: 5s;
+
+        margin: 50px;
+      }
+      @keyframes square {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(180deg);
+        }
+      }
+      @keyframes circle {
+        from {
+          background-color: red;
+        }
+        to {
+          background-color: yellow;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- <h2>Square CSS</h2> -->
+    <div class="square"></div>
+    <!-- <h2>Circle CSS</h2> -->
+    <div class="circle"></div>
+  </body>
+</html>

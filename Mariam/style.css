@@ -1,0 +1,29 @@
+.row {
+  display: grid;
+  gap: 10%;
+    background-color: #f9c1e0;
+  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(400px , 1fr));
+  align-items: center;
+}
+
+.col {
+ 
+  padding: 10px;
+  margin: 20px;
+}
+.form-control {
+  
+  background-color: #3f3d56;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 1%;
+  box-shadow: none;
+}
+
+div  p {
+  color: red;
+}
+div  p {
+  color: blue;
+}
